@@ -830,5 +830,13 @@
         "context": [
             { "key": "setting.git_savvy.rebase_view", "operator": "equal", "operand": true }
         ]
-    }
+    },
+
+    //////////////
+    /// SHARED ///
+    //////////////
+    {
+        "command": "gs_show_commit_under_cursor", "keys": ["f12"],
+        "context": [{ "key": "selector", "operator": "equal", "operand": "git-savvy" }]
+    },
 ]
